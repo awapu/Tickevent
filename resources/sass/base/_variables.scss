@@ -1,0 +1,57 @@
+//LINKING GOOGLE-FONT
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+//TIPOGRAFIA
+$fuentePrincipal:'Roboto Slab', serif;
+$fuente_secundaria:'Catamaran', sans-serif;
+$fuente_especial: 'Young Serif', serif;
+//COLORES
+$colorFuenteBotones:#B12D2D;
+$colorBackgroundBotones:#E9E13A;
+$colorBordes:#B39C12;
+$colorPrimario:#212121;
+$colorSecundario:#101414;
+$colorNegro: #000000;
+$blanco:#FFFFFF;
+$azulGris: #A4A9C8;
+$azul: #0667AB;
+$azulOscuro: #000E7E;
+
+//MEDIA QUERIES (mq)
+$telefono: 480px;
+$tablet: 768px;
+$desktop: 992px;
+$desktopXL: 1200px;
+
+
+
+//new var
+//TIPOGRAFIA
+$fuente_principal:'Roboto Slab', serif;
+$fuente_secundaria:'Catamaran', sans-serif;
+$fuente_especial: 'Young Serif', serif;
+
+//COLORES
+$rojo:#B12D2D;
+$amarillo:#E9E13A;
+$verde: #048033;
+$bordes:#B39C12;
+$primario:#212121;
+$secundario:#101414;
+$negro: #000000;
+$blanco:#FFFFFF;
+$azul_gris: #A4A9C8;
+$azul_claro: #0667AB;
+$azul_oscuro: #000E7E;
+
+
+$crimson: rgb(211,8,34);
+
+//MEDIA QUERIES (mq)
+$telefono: 480px;
+$tablet: 768px;
+$desktop: 992px;
+$desktopXL: 1200px;

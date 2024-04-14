@@ -1,0 +1,105 @@
+.listado-eventos {
+    padding: 5rem 2rem;
+    @include mqDesktopXL {
+        padding: 5rem 0; 
+    }
+    background-color: $primario;
+}
+
+.contenido-listado-eventos{
+    margin: 0 auto;
+    @include grid-col(1, 5rem);
+
+    @include mqTablet {
+        @include grid-col(2, 5rem); 
+    }
+    @include mqDesktop {
+        @include grid-col(3, 5rem); 
+    }
+    @include mqDesktopXL {
+        @include grid-col(4, 5rem);  
+    }
+}
+.tarjeta-evento {
+    display: flex;
+    flex-direction: column;
+    background-color: lighten($color: $secundario, $amount: 15%);
+    overflow: hidden;
+
+
+
+
+    .img-evento{
+        padding: 2.5%;
+        height: 17.3rem;
+        overflow: hidden;
+        position: relative;
+        background-color: lighten($color: $secundario, $amount: 55%);
+
+    }
+    .pic-img {
+        width: 95%;
+        object-fit: cover;
+        position: absolute;
+        height: 100%;
+    }
+    .cardEvent__btnContainer{
+        width: 100%;
+        margin:  auto auto 0 auto;
+    }
+}
+
+.info-evento{
+    border-top: 1rem solid lighten($color: $secundario, $amount: 55%);
+    padding: 0 1rem 2rem 1rem;   
+    .infoEvento__tabla{
+        margin: 0 auto;
+        // width: 100%;
+        @include mqTelefono{
+            // width: 100%;
+            
+        }
+        // column-gap: 1rem;
+        // border-collapse: collapse;
+        // border-spacing: 3rem;
+        .tblInfoCard__col--head{
+            padding-top: 0.5rem;
+
+            .InfoCardTh__dato{
+                font-family: $fuente_secundaria;
+                color: $amarillo;
+                font-weight: 400;
+                text-align: center;
+                font-size: 2rem;
+
+            }
+        }
+        td{
+            padding-top: 0.5rem;
+            .InfoCardTd__dato{
+                font-family: $fuente_secundaria;
+                color: $amarillo;
+                padding: 0 2rem;
+                font-size: 1.5rem; 
+                margin-bottom: 0;   
+            }
+            &:nth-child(2){
+                min-width: 10rem;
+            }
+            .tablaInfoCard__iconContainer{
+                width: 2rem;
+                margin-bottom: auto;
+
+            }
+        }
+        th, td {
+            // border: 1px solid yellow;
+            vertical-align:top;
+            // white-space: nowrap;
+            // text-overflow: ellipsis;
+            // overflow: hidden; 
+        }
+    }
+}
+
+

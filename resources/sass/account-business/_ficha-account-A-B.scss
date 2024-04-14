@@ -1,0 +1,63 @@
+
+.fichaPerfil__container{
+
+    margin: 0 0 0.5rem 0;
+
+    display: flex;
+    width: 6rem;
+    height: 10rem;
+    @include grid-row (2, 3rem);
+    @include mqDesktop{
+        margin: 0 0 3rem 0;
+
+    }
+
+
+    
+    .fichaPerfil__nombreCtaRegular{
+        position: relative;
+        width: 100%;
+        color: $blanco;
+        margin-top:1rem;
+
+        h3{
+            position: absolute;
+            width: 8rem;
+
+            margin: auto auto;
+            font-size: 1rem;
+            text-align:center;
+            white-space: wrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            @include mqTablet {
+                width: 8rem;
+                left: -1rem;
+
+            }
+            @include mqDesktop {
+                width: 9rem;
+                left: -1rem;
+                top: -1.5rem;
+            }
+        }      
+    }
+}
+.fichaPerfil__imgContainer{
+    border-radius: 1.4rem;
+    background-color: rgba(#cbb32d44, 1);
+
+    display: block;
+    margin: auto auto;
+    padding: 0.3rem;
+    width: 4rem;  
+    height: 4rem;
+    @include mqDesktop{
+        width: 6.5rem;  
+        height: 6.5rem; 
+    }   
+    img{
+        margin: auto auto;
+        width: 100%;
+    }    
+}

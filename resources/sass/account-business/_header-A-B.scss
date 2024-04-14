@@ -1,0 +1,59 @@
+.headerPrincipal__header--userAccount {
+    padding: 1rem 0;
+}
+.headerPrincipal__logo--users{
+    margin: 0 auto 1rem auto;
+    width: 10rem;
+     @include mqTablet{
+        width: 8rem;
+        margin: 0 auto 2rem auto;
+    }
+} 
+
+.header__usersAccount{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    @include mqTablet{
+        @include grid-col(4, 0rem);
+        .seccion__navUser,
+        .fichaPerfil__container{
+            margin-left: auto;
+        }
+        
+        .seccion__navUser--promotor,
+        .fichaPerfil__container--promotor{
+            margin-right: auto;
+        }
+    }
+}
+
+
+
+.seccion__navUser{
+    @include mqTablet {
+        width: 50%;
+    }
+    .nav__user{
+        @include mqTablet {
+            margin: 0 0 0 auto;
+        }       
+    }
+}
+
+
+
+
+.fichaPerfil__container{
+    display: none;
+    @include mqTablet{
+        display: block;
+    }
+    @include mqDesktop{
+        width: 7rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+}

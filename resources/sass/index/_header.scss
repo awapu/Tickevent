@@ -1,0 +1,38 @@
+.headerPrincipal {
+    position: relative;
+    width: 100%;
+}
+
+.headerPrincipal__header {
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    background-color: rgba($negro, $alpha: 0.5);
+    
+    .headerPrincipal__container {
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        .headerPrincipal__btn {
+            max-width: 20rem;
+            margin: 0 auto;
+        }
+        @include mqDesktop {
+            flex-direction: row;
+            align-items: center;
+        }
+    }
+}
+
+.headerPrincipal__logo {
+    width: 12rem;
+    margin: auto;
+    display: flex;
+
+    @include mqTablet {
+        min-width: 20rem;
+        height: 10.978rem;
+    }
+}
+

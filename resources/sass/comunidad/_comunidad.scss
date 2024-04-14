@@ -1,0 +1,11 @@
+.mapa__container{
+    margin: 50px auto;
+    height: 650px;
+    position: relative;
+    .mapa__containerGoogle{
+        width: 100%;
+        height: 650px;
+        position: absolute;
+        z-index: 10;
+    }
+}

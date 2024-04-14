@@ -1,0 +1,86 @@
+
+
+
+
+@mixin mqTelefono {
+    @media (min-width: $telefono) {
+        @content;
+    }
+}
+@mixin mqTablet {
+    @media (min-width: $tablet) {
+        @content;
+    }
+}
+
+@mixin mqDesktop {
+    @media (min-width: $desktop) {
+        @content;
+    }
+}
+
+@mixin mqDesktopXL {
+    @media (min-width: $desktopXL) {
+        @content;
+    }
+}
+
+@mixin boton ($bg_color, $font_color, $display, $alto: 2rem, $largo: 2rem) {
+    padding: $alto $largo;
+    background-color: $bg_color;
+    color: $font_color;
+    display: $display;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+@mixin botones ($ancho, $alto, $tamFuente, $bg-color: $colorBackgroundBotones){
+    display: block;
+    padding: 1.2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $colorFuenteBotones;
+    font-weight: bold;
+    font-size: $tamFuente;
+    text-transform: uppercase;
+    p{
+        color: $colorFuenteBotones; 
+        font-weight: bold;
+        font-size: $tamFuente;
+        text-transform: uppercase;
+        line-height: 1;
+        margin: 0;
+        
+    }
+    background-color: $bg-color;
+    border: $colorBordes solid 0.2rem;
+    border-radius: 1rem;
+    margin: auto auto;
+    width: $ancho;
+    height: $alto;
+}
+@mixin field-search ($ancho: none){
+    border-radius: 1rem;
+    width: $ancho;
+    height: 5rem;
+}
+
+@mixin grid ($numCol, $sep) {
+    display: grid;
+    grid-template-columns: repeat($numCol, 1fr);
+    gap: $sep;
+}
+@mixin grid-col ($numCol, $gap) {
+    display: grid;
+    grid-template-columns: repeat($numCol, 2fr);
+    gap: $gap;
+}
+@mixin grid-row ($numRow, $sep) {
+    display: grid;
+    grid-template-rows: repeat($numRow, 1fr);
+    gap: $sep;
+}
