@@ -14,4 +14,9 @@ https://tickevent.app/
 
 ![Img overview project](https://github.com/awapu/Tickevent/blob/main/public/images/Images/Verificaci%C3%B3n.PNG)
 
+
+
+ ## Mockups 
+![Img overview project]()
+ 
  
