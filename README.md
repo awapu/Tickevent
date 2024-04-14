@@ -1,5 +1,8 @@
 # tickevent 🎫
 
+## Docs
+
+https://github.com/awapu/Tickevent/tree/main/Documentaci%C3%B3n
 
 ## Page 💻
 
