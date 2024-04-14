@@ -7,6 +7,6 @@ https://tickevent.app/
 
 ## Overview 
 
-![Img overview project](https://github.com/awapu/Tickevent/blob/main/public/logo/logo_1.png)
+![Img overview project](public/images/Images/Vistas pagina web.PNG)
 
  
