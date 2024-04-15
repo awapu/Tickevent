@@ -35,14 +35,17 @@ https://tickevent.app/
  
  Botón 1:
  
- Eniva petición de consulta a ala base de datos de la credenciales de usuario 
- una vez las credencialesson validadas por el sistema, te rediirige a la vista 2: "Home".
+ Envía petición de consulta a la base de datos de la credenciales de usuario ingresadas.
+ 
+ Una vez las credencialesson validadas por el sistema, te redirige a la vista 2: "Home".
  
 Vista 2: Home
 
 ![Img overview project](https://github.com/awapu/Tickevent/blob/main/public/images/Images/2.png)
 
-Es la vista incial una vez el usuario ingresa al sistema, el contenido descriptivo de la vista general seria el siguiente:
+Es la vista incial una vez el usuario ingresa al sistema.
+
+El contenido descriptivo de la vista general seria el siguiente:
 
 Contiene solo dos botones:
 
@@ -52,7 +55,7 @@ Validar entrada: este botón redireccionará a la vista 3: validar boleta
 
 Botón de imagen 2:
 
-Puede tewner un texto de indique "vender boleta"; este botón permite redireccionar a la sección de venta de boletas(vista 4:Procesar la venta de boletas).
+Puede tener un texto que indique "vender boleta"; este botón permite redireccionar a la sección de venta de boletas (vista 4: Procesar la venta de boletas).
 
 Vista 3: Validar boletas (ingreso o salida del asistente)
 
@@ -82,12 +85,47 @@ Boleta falsa: un aviso que podría decir:
 *QR No ENCOTRADO: Este ID nunca se procesó en las transacciones de TICKEVENT.
 Acérquese a la taquilla para adquirir una entrada para el evento.*
 
-Boleta lepida cuando el asistente entra por primera vez:un aviso qie podría decir:
+Boleta leida cuando el asistente entra por primera vez: un aviso que podría decir:
 
 *Entrada procesada:Felicitaciones
 Fecha[la fecha]
 Hora:[La hora]*
 
+Boleta leída cuando asistente sale: un aviso que podría decir:
+*Salida procesada: Regresa pronto.*
+Boleta leída cuando asistente entra nuevamente: un aviso que podría decir:
+*Entrada procesada: Siga disfrutando del evento*
+
+Vista 4: Procesar la venta de boletas
+
 ![Img overview project](https://github.com/awapu/Tickevent/blob/main/public/images/Images/4.png)
+
+Permite realizar la venta de una o más boletas a un cliente
+El contenido descriptivo de la vista sería el siguiente:
+Campo desplegable 1:
+
+Campo desplegable para seleccionar el evento
+
+Botón 1:
+
+botón de incremento para seleccionar la cantidad de boletas que serán vendidas
+
+Sección 1: datos del asistente
+La sección está compuesta de datos de comprador:
+Los elementos de la sección serian:
+
+Campo 1: Nombres
+
+Campo 2: Apellidos
+
+Campo 3: E-mail
+
+Campo 4: Cedula
+
+Campo 6: número de celular
+
+Botón 2:
+
+Sería el botón “vender boleta”.
  
  
