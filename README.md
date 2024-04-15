@@ -64,7 +64,29 @@ El contenido descriptivo de la vista sería el siguiente:
 
 Campo 1:
 
-Recibe el ingre 
+Recibe el ingreso del id de la boleta leída (únicamente por lector de QR)
+
+Sección 1: acciones del asistente
+
+Tendrá dos radius botón: uno para cuando se procesa la entrada del usuario y otro para procesar una salida momentánea
+
+Botón 1: validar
+
+Seria el botón "validar".Realizará la búsqueda del ID del código de barras en la base de datos.
+
+Espacio de visualización:
+
+En la parte inferior aparecerán los datos de validación de la boleta escaneada con los siguientes estados:
+
+Boleta falsa: un aviso que podría decir:
+*QR No ENCOTRADO: Este ID nunca se procesó en las transacciones de TICKEVENT.
+Acérquese a la taquilla para adquirir una entrada para el evento.*
+
+Boleta lepida cuando el asistente entra por primera vez:un aviso qie podría decir:
+
+*Entrada procesada:Felicitaciones
+Fecha[la fecha]
+Hora:[La hora]*
 
 ![Img overview project](https://github.com/awapu/Tickevent/blob/main/public/images/Images/4.png)
  
