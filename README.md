@@ -82,7 +82,9 @@ Espacio de visualización:
 En la parte inferior aparecerán los datos de validación de la boleta escaneada con los siguientes estados:
 
 Boleta falsa: un aviso que podría decir:
-*QR No ENCOTRADO: Este ID nunca se procesó en las transacciones de TICKEVENT.
+*QR No ENCOTRADO:
+
+Este ID nunca se procesó en las transacciones de TICKEVENT.
 Acérquese a la taquilla para adquirir una entrada para el evento.*
 
 Boleta leida cuando el asistente entra por primera vez: un aviso que podría decir:
@@ -122,7 +124,7 @@ Campo 3: E-mail
 
 Campo 4: Cedula
 
-Campo 6: número de celular
+Campo 5: número de celular
 
 Botón 2:
 
