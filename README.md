@@ -18,7 +18,7 @@ https://tickevent.app/
 
 
  ## Mockups 
- Vista 1: LOGIN
+VISTA 1: LOGIN
  
 ![Img overview project](https://github.com/awapu/Tickevent/blob/main/public/images/Images/1.png)
 
@@ -39,7 +39,7 @@ https://tickevent.app/
  
  Una vez las credencialesson validadas por el sistema, te redirige a la vista 2: "Home".
  
-Vista 2: Home
+VISTA 2: HOME
 
 ![Img overview project](https://github.com/awapu/Tickevent/blob/main/public/images/Images/2.png)
 
@@ -57,7 +57,7 @@ Botón de imagen 2:
 
 Puede tener un texto que indique "vender boleta"; este botón permite redireccionar a la sección de venta de boletas (vista 4: Procesar la venta de boletas).
 
-Vista 3: Validar boletas (ingreso o salida del asistente)
+VISTA 3: VALIDAR BOLETAS (ingreso o salida del asistente)
 
 ![Img overview project](https://github.com/awapu/Tickevent/blob/main/public/images/Images/3.png)
 
@@ -97,7 +97,7 @@ Boleta leída cuando asistente sale: un aviso que podría decir:
 Boleta leída cuando asistente entra nuevamente: un aviso que podría decir:
 *Entrada procesada: Siga disfrutando del evento*
 
-Vista 4: Procesar la venta de boletas
+VISTA 4: PROCESAR LA VENTA DE BOLETAS
 
 ![Img overview project](https://github.com/awapu/Tickevent/blob/main/public/images/Images/4.png)
 
